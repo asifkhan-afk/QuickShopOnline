@@ -1,0 +1,49 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Buy Now{% endblock title %}
+{% block main-content %}
+<div class="container">
+ <div class="row mt-5">
+  <div class="col-sm-6">
+    <h4>Order Summary</h4>
+    <hr>
+    {% for i in items %}
+      <div class="card mb-2">
+        <div class="card-body">
+          <h5>Product:{{i.product.title}}</h5>
+          <p>Quantity: {{i.quantity}}</p>
+          <p class="fw-bold">Price: {{i.tcost}}</p>
+        </div>
+      </div>
+      
+    <!-- <small>{{i.product.description}}</small> -->
+  {% endfor %}
+  <h6>Total Cost + Shipping : {{tamount}}</h6>
+  </div>
+  <div class="col-sm-4 offset-sm-1">
+    <h4>Select Shipping Address</h4>
+    <hr>
+    
+    <form action="/payment">
+      {% for c in cust %}
+      <div class="card">
+        <div class="card-body">
+        <h5>{{c.name}}</h5>
+        <p>{{c.locality}}</p>
+        </div>
+      </div>
+        <div class="form-check mt-2 mb-5">
+          <input class="form-check-input" name="custid" id="cistid{{forloop.counter}}"  type="radio" value="{{c.id}}">
+          <label class="form-check-label fw-bold" for="">
+            Address: {{c.state}} </label>
+        </div>
+        {% endfor %}
+        <div class="text-end">
+          <button type="submit" class="btn btn-warning mt-3 px-5 fw-bold">Continue</button>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+</div>
+{% endblock main-content %}

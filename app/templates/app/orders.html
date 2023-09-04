@@ -1,0 +1,51 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block title %}Buy Now{% endblock title %}
+{% block main-content %}
+<div class="container my-5">
+ <div class="row">
+ <h3>Welcome Sonam</h3>
+  <div class="col-sm-2 border-end">
+   <ul class="list-unstyled">
+    <li class="d-grid"><a href="{% url 'orders' %}" class="btn btn-primary">Orders</a></li>
+   </ul>
+  </div>
+ 
+  <div class="col-sm-9 offset-sm-1">
+    <div class="card">
+        <div class="card-body">
+         <h3>Orders</h3>
+         {% for c in orders %}
+         <div class="row">
+          <div class="col-sm-3 text-center align-self-center"><img src="{{c.product.product_image.url}}" alt="" srcset="" class="img-fluid img-thumbnail shadow-sm" height="150" width="150"> </div>
+          <div class="col-sm-9">
+           <div>
+            <div class="d-flex justify-content-between">
+            <h5>{{c.product.title}}</h5>
+            <h6>{{c.status}}</h6>
+        </div>
+
+            <p class="mb-2 text-muted small">{{c.product.description}}</p>
+             <div class="my-3">
+             <label for="quantity">Quantity:</label>
+             <span id="quantity">{{ c.quantity }}</span>
+     
+            </div> 
+            <div class="d-flex justify-content-between">
+             <p class="mb-0"><span><strong>{{c.product.discount_price}}</strong></span></p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <hr>
+         {% endfor %}
+     
+     
+       
+      </div>
+     </div>
+  </div>
+
+ </div>
+</div>
+{% endblock main-content %}

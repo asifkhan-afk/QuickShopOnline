@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63396251-e6cd-4d2b-a8f5-e2028b1e5d7b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/templates/app/customerregistration.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="22j9QC3a53vLIv00yAN0PE6PnFJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="D:/djangocalssbaseproj" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63396251-e6cd-4d2b-a8f5-e2028b1e5d7b" name="Default Changelist" comment="" />
+      <created>1640340110222</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640340110222</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="29" key="#Inspections" timestamp="1641481707842">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="29" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1641481707842" />
+    <state x="462" y="122" key="FileChooserDialogImpl" timestamp="1644996271093">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="122" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1644996271093" />
+    <state x="178" y="21" key="SettingsEditor" timestamp="1641007554806">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="178" y="21" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1641007554806" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1640610262805">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1640610262805" />
+    <state x="378" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1646329385666">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="378" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1646329385666" />
+    <state x="340" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1644943334086">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="340" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1644943334086" />
+    <state x="363" y="233" width="710" height="311" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1640928602118">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="363" y="233" width="710" height="311" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.738@0.0.1366.738" timestamp="1640928602118" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1641481656468">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1641481656468" />
+  </component>
+</project>
